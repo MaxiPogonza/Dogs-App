@@ -1,0 +1,42 @@
+/* .input{
+  margin: 0%;
+  border-radius: 6px;
+  padding: 5px;
+  border-color: blueviolet;
+  text-decoration: none;
+}.input:hover{
+    
+} */
+.input{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: rgb(98, 20, 129);
+    padding: 3px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    }
+    ::placeholder {
+      color: rgb(131, 127, 127);
+    }
+    .btn {
+    
+        background: transparent;
+        width:80px;
+        height:30px;
+        font-weight: 800;
+        border: 2px solid rebeccapurple;
+        border-radius: 6px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .btn:hover {
+          background-color: rebeccapurple;
+          color: white;
+     }

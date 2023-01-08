@@ -1,0 +1,26 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    border-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.link:hover{
+    text-decoration: none;
+    color: white;
+
+}
+.crear{
+   margin-left: 80px;
+   margin-top: 8px;
+}
+.crear p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}

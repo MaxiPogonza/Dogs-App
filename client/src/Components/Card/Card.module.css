@@ -1,0 +1,43 @@
+.back{
+    margin: 30px 5px;
+    position: relative;
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: 0 40px 60px -6px black;
+    background-color: rgb(199, 202, 7);
+    border-radius: 10px;
+    
+  }
+  .back img {
+    
+    width: 360px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    position: relative;
+  }
+  .info {
+    display: block;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    position: absolute;
+    height: 0;
+    top: 0;
+    opacity: 0;
+    padding: 18px 8%;
+    background-color: blanchedalmond;
+    transition: 0.8s ease;
+  }
+  .info p{
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .back:hover .info {
+    opacity: 1;
+    height: 100%;
+  }
+.link{
+    text-decoration: none;
+    color: rgb(199, 202, 7);
+}
+  

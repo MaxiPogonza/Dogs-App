@@ -1,0 +1,42 @@
+.nav{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .number{
+    display: inline-flex;
+    padding: 0.5rem;
+    
+}
+
+.number > button {
+    text-decoration: none;
+    background-color: rgb(135, 78, 192);
+    border-radius: 1000px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #313133;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 10px;
+    cursor:pointer;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    position: relative;
+
+}
+
+.number > button:hover {
+    background: linear-gradient(to bottom, #8605bd 5%, #8612bc 100%);
+    background-color: #063593;
+}
+
+.number > button:active {
+    position: relative;
+    top: 1px;
+} 
